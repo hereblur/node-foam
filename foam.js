@@ -66,7 +66,7 @@ function headers (schema, length) {
     Soapaction: schema,
     'Content-Type': 'text/xml;charset=UTF-8',
     'Content-Length': length,
-    'Accept-Encoding': 'gzip',
+    // 'Accept-Encoding': 'gzip',
     Accept: '*/*'
   }
 }
